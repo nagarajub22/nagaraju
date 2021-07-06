@@ -10,7 +10,6 @@ function App() {
     let introTimer = setTimeout(() => setIntro(false), 4 * 1000)
 
     return () => {
-      console.log('Unmount App');
       clearTimeout(introTimer);
     };
   }, []);

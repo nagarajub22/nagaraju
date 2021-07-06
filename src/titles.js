@@ -1,5 +1,5 @@
 const TITLES = {
-    INTRO_TITLE: 'Great Seeing you !'
+    INTRO_TITLE: 'Hello, Great Seeing you !'
 };
 
 export default TITLES;
