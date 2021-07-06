@@ -15,11 +15,13 @@ function App() {
     };
   }, []);
 
-  if(showIntro) {
-    return <IntroPage/>;
-  } else {
-    return '';
-  }
+//   if(showIntro) {
+//     return <IntroPage/>;
+//   } else {
+//     return '';
+//   }
+  
+  return <IntroPage/>;
 }
 
 export default App;
